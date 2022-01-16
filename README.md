@@ -8,7 +8,7 @@ micropython library compatible with micropython ONEWIRE through I2C IO DS2482
 
     i2c=machine.I2C(1)
 
-    OW = OneWireDs(i2c)
+    OW = ds2482.OneWireDs(i2c)
 
     print(OW.scan())
 ```
